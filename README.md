@@ -1,7 +1,6 @@
 # Git Note
 
-* auto-gen TOC:
-{:toc}
+[TOC]
 
 # 基本命令
 
