@@ -6,8 +6,8 @@
 
 # 基本命令
 
-```
-git init        # 初始化
+```python
+git init        # 初始化
 git status      #  查看状态
 git add .
 git add '文件名'   # 添加到缓存去
@@ -16,7 +16,7 @@ git commit -m '提交信息'    # 提交到?
 
 # 回滚
 
-```
+```python
 git reflog
 
 # 再回滚回去
