@@ -1,18 +1,17 @@
-#Git Note
+# Git Note
 
 - 修复1 bug
 - 修复2 bug
 
-[toc]
 
 # 基本命令
 
 ```
-git init        //
-git status      //
+git init        # 初始化
+git status      #  查看状态
 git add .
-git add '文件名'
-git commit -m '提交信息'
+git add '文件名'   # 添加到缓存去
+git commit -m '提交信息'    # 提交到?
 ```
 
 # 回滚
@@ -187,4 +186,6 @@ git ls-files -s    // 查看暂存区和版本中所有文件
 #忽略文件
 `vim .gitignore`
 [Python .gitignore Github](https://github.com/github/gitignore/blob/master/Python.gitignore)
+
+
 
