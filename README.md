@@ -1,5 +1,7 @@
 # Git Note
 
+[TOC]
+
 # 基本命令
 
 ```python
