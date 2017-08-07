@@ -1,8 +1,7 @@
 # Git Note
 
-- 修复1 bug
-- 修复2 bug
-
+* auto-gen TOC:
+{:toc}
 
 # 基本命令
 
