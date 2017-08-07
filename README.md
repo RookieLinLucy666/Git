@@ -1,9 +1,5 @@
 # Git Note
 
-- 修复1 bug
-- 修复2 bug
-
-
 # 基本命令
 
 ```python
@@ -183,9 +179,11 @@ git ls-tree head   // 查看版本中所有文件
 git ls-files -s    // 查看暂存区和版本中所有文件
 ```
 
-#忽略文件
+# 忽略文件
 `vim .gitignore`
 [Python .gitignore Github](https://github.com/github/gitignore/blob/master/Python.gitignore)
 
+
+# Github 连接方式
 
 
