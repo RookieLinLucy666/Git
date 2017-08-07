@@ -15,7 +15,7 @@ git add '文件名'
 git commit -m '提交信息'
 ```
 
-#回滚
+##回滚
 
 ```
 git reflog
@@ -26,9 +26,9 @@ git rest --mix a615783
 git checkout '文件名'
 ```
 
-#开发模式
-## 1.stash 方式
-### 处理 bug
+##开发模式
+### 1.stash 方式
+#### 处理 bug
 
 ```python
 git stash     # 将当前已经做过的修改，保存到一个临时地方
@@ -50,7 +50,7 @@ git stash pop   # 临时地方内容重新放回工作区
 >>>>>>> Stashed changes
 '''
 ```
-###其它命令
+####其它命令
 
 ```python
 git stash
@@ -60,7 +60,7 @@ git stash list
 git stash pop
 ```
 
-## 2. 分支
+### 2. 分支
 
 | 分支 | 版本用处 |
 | --- | --- |
@@ -74,14 +74,14 @@ git branch dev      # 创建分支(注意当前所在分支)
 git checkout master     # 进入分支
 ```
 
-###出现 bug
+####出现 bug
 
 ```python
 git checkout master     # 回主分支来修复 bug
 git branch bug          # 创建 bug 分支
 git checkout bug        # 进入 bug 分支
 ```
-###合并
+####合并
 
 ```python
 git checkout master     #  回主分支
@@ -95,15 +95,15 @@ git commit -m '解决冲突'
 git beamch -d bug
 ```
 
-# 远程仓库
+## 远程仓库
 >国内:
 >BitBucket：https://bitbucket.org/
-开源中国：http://git.oschina.net/
-GitCafe：https://gitcafe.com/
-GitLab：http://www.gitlab.org/
-coding：https://coding.net/
+>开源中国：http://git.oschina.net/
+>GitCafe：https://gitcafe.com/
+>GitLab：http://www.gitlab.org/
+>coding：https://coding.net/
 
-##基本使用
+###基本使用
 
 ``` python
 # 新建项目或已有项目
@@ -130,7 +130,7 @@ git fetch origin dev    # 同步
 git pull origin dev     # 劲大
 ```
 
-##家/公司忘记提交代码
+###家/公司忘记提交代码
 >push/下载 代码,先开发别的功能
 >
 
@@ -148,7 +148,7 @@ git pull origin dev     # 同步到本地
 # 然后解决冲突
 ```
 
-#协同开发
+##协同开发
 >A,B,C(组织/邀请)
 
 - 同一个远程仓库
@@ -158,7 +158,7 @@ git pull origin dev     # 同步到本地
         - 没问题 > pass
         - 有问题 > 改
 
-#fork
+##fork
 
 1. fork别人项目
 2. git clone xxxxxx
@@ -170,21 +170,21 @@ git pull origin dev     # 同步到本地
 
 
 
-#配置用户信息
+##配置用户信息
 
 ```
 git config --local user.name '名称'
 git config --local user.email '邮箱'
 ```
 
-#其它命令
+##其它命令
 
 ```
 git ls-tree head   // 查看版本中所有文件
 git ls-files -s    // 查看暂存区和版本中所有文件
 ```
 
-#忽略文件
+##忽略文件
 `vim .gitignore`
 [Python .gitignore Github](https://github.com/github/gitignore/blob/master/Python.gitignore)
 
