@@ -6,3 +6,5 @@ env:
 install:
     - pip install django
     - pip install pep8
+script:
+    - python manage.py test
