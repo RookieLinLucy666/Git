@@ -1,10 +1,9 @@
 # Git Note ![](https://travis-ci.com/cvno/Git_Project.svg?token=pi6b5mfzZ59odqp5Yuyi&branch=master)
 
-[TOC]
 
 # 基本命令
 
-```python
+```sh
 git init        # 初始化 生成 .git 文件
 git status      #  查看状态
 git add .       # 把所有文件添加到暂存区
@@ -223,4 +222,6 @@ cat ~/.ssh/id_rsa.pub
 # clone 克隆
 git clone '仓库 ssh 地址'
 ```
+
+
 
