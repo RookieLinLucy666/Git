@@ -1,10 +1,29 @@
-# Git Note
+# Git Note ![](https://travis-ci.com/cvno/Git_Project.svg?token=pi6b5mfzZ59odqp5Yuyi&branch=master)
 
-[TOC]
+- [基本命令](#基本命令)
+- [回滚](#回滚)
+- [开发模式](#开发模式)
+    1. [stash-方式](#stash-方式)
+        - [处理bug](#处理bug)
+        - [其它命令](#其它命令)
+    2. [分支](#分支)
+        - [出现bug](#出现bug)
+        - [合并](#合并)
+- [远程仓库](#远程仓库)
+    - [基本使用](#基本使用)
+    - [家/公司忘记提交代码](#家/公司忘记提交代码)
+- [协同开发](#协同开发)
+- [fork](#fork)
+- [配置用户信息](#配置用户信息)
+- [其它命令](#其它命令)
+- [忽略文件](#忽略文件)
+- [Github连接方式](#Github连接方式)
+    - [https](#https)
+    - [ssh](#ssh)
 
 # 基本命令
 
-```python
+```sh
 git init        # 初始化 生成 .git 文件
 git status      #  查看状态
 git add .       # 把所有文件添加到暂存区
@@ -31,8 +50,8 @@ git log     # 查看日志 谁提交的,提交信息
 ```
 
 # 开发模式
-## 1.stash 方式
-### 处理 bug
+## stash方式
+### 处理bug
 
 ```sh
 git stash     # 将当前已经做过的修改，保存到一个临时地方
@@ -67,7 +86,7 @@ git stash list
 git stash pop
 ```
 
-## 2. 分支
+## 分支
 
 | 分支 | 版本用处 |
 | --- | --- |
@@ -82,7 +101,7 @@ git branch dev      # 创建分支(注意当前所在分支)
 git checkout master     # 进入分支
 ```
 
-### 出现 bug
+### 出现bug
 
 ```sh
 git checkout master     # 回主分支来修复 bug
@@ -210,7 +229,7 @@ vim .git/config     # 查看当前项目配置
 [Python .gitignore Github](https://github.com/github/gitignore/blob/master/Python.gitignore)
 
 
-# Github 连接方式
+# Github连接方式
 ## https
 ## ssh
 
@@ -223,4 +242,3 @@ cat ~/.ssh/id_rsa.pub
 # clone 克隆
 git clone '仓库 ssh 地址'
 ```
-
