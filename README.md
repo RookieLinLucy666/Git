@@ -1,4 +1,4 @@
-# Git Note ![](https://travis-ci.com/cvno/Git_Project.svg?token=pi6b5mfzZ59odqp5Yuyi&branch=master)
+# Git Note [![Build Status](https://travis-ci.com/cvno/Git_Project.svg?token=pi6b5mfzZ59odqp5Yuyi&branch=master)](https://travis-ci.com/cvno/Git_Project)
 
 - [基本命令](#基本命令)
 - [回滚](#回滚)
@@ -242,3 +242,4 @@ cat ~/.ssh/id_rsa.pub
 # clone 克隆
 git clone '仓库 ssh 地址'
 ```
+
