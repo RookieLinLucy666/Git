@@ -31,6 +31,7 @@ git add '文件名'   # 添加到缓存去
 git commit -m '提交信息'    # 添加到分支
 
 git commit -a -m '提交信息'   # 一句命令来提交
+git checkout -b '分支'    # 创建分支并切换
 ```
 
 # 回滚
