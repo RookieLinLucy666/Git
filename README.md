@@ -28,6 +28,8 @@ git init        # 初始化 生成 .git 文件
 git status      #  查看状态
 git add .       # 把所有文件添加到暂存区
 git add '文件名'   # 添加到缓存去
+git reset HEAD .    # 撤销所有的已经add的文件
+git reset HEAD -filename # 撤销某个文件或文件夹
 git commit -m '提交信息'    # 添加到分支
 
 git commit -a -m '提交信息'   # 一句命令来提交
