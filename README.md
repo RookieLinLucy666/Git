@@ -35,6 +35,7 @@ git commit -m '提交信息'    # 添加到分支
 
 git commit -a -m '提交信息'   # 一句命令来提交
 git checkout -b '分支'    # 创建分支并切换
+git branch -vv # 查看本地分支与远程分支之间关联的关系
 ```
 
 # 回滚
