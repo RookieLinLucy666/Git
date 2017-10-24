@@ -1,1 +1,1 @@
-print(文件2.py)
+print('文件2.py')
