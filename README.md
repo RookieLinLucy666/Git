@@ -128,6 +128,12 @@ git beamch -d bug
 ```
 ![没有冲突](http://onk83djzp.bkt.clouddn.com/15021209863919.jpg)
 
+三者都可以完成合并并提交新功能,但是日志记录会有差异，如：前两者版本记录中会出现合并，而第三种可以保证版本记录干净整洁。
+
+- 先 `git pull origin master`   然后 `git push origin master`
+- 先 `git fetch origin master` 然后 `git merge origin/master`   再 `git push origin master`
+- 先 `git fetch origin master` 然后 `git rebase origin/master`  再 `git push origin master`
+
 # 远程仓库
 - 现有的(国内):
     - BitBucket：https://bitbucket.org/
