@@ -125,7 +125,7 @@ git add .
 git commit -m '解决冲突'
 
 # 删除分支
-git beamch -d bug
+git branch -d bug
 ```
 ![没有冲突](http://onk83djzp.bkt.clouddn.com/15021209863919.jpg)
 
